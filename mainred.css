@@ -13,15 +13,16 @@ body {
   font-size: 100%;
 }
 .links {
-  width: 100px;
-  height: 390px;
+  width: 650px;
+  height: 70px;
   background-color: blanchedalmond;
-  border-bottom-left-radius:30px;
+  border-top-right-radius: 30px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  box-sizing: inherit;
   font-size: 100%;
-  align-self: baseline;
-  text-align: center;
+  text-align: left;
+  top: 0px;
+  position: fixed;
+  align-self: center;
 }
 .moodchanger {
   width: 100px;
@@ -39,24 +40,27 @@ p1 {
   height: 25px;
   background-color: cornflowerblue;
   text-align: center;
-  padding-top: 3px;
-  
+  padding-top: 3px;  
 }
 mark {
     color:white;
     background-color:indianred;
-    padding: 0.5em;
-    }
+    padding: 0.25em;
+}
 ul {
   padding: 20px;
 }
 li{
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 60px;
 }
 li:hover {
   background-color: yellow;
-  transform:scale(1.2) 
+  transform: scale(1.2); 
 }
 img {
   height: 197px;
@@ -70,22 +74,22 @@ img:hover {
   transform: scale(1.14);
   filter: grayscale(0%);
   box-shadow: hsla(0, 0%, 0%, .5) 5px 5px 40px;
-  }
+}
 .profile-card {
-  width: 900px;
+  width: 650px;
   height: auto;
   background-color: blanchedalmond;
   border-radius: 2px;
   border-top-left-radius: 30px;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  margin-right: 120px;
+  margin-right: 0px;
   padding: 0;
   box-sizing: content-box;
   font-size: 100%;
 }
 .tabella {
     padding-top: 3px;
-    }
+}
 h1 {
   font-family: "raleway", "Helvetica";
   font-size: 35px;
